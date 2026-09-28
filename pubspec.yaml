@@ -1,0 +1,27 @@
+name: amal_tracker
+description: "আমল ট্র্যাকার - দৈনিক নামাজ, কুরআন তিলাওয়াত ও জিকির ট্র্যাক করার অ্যাপ"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.0
+  intl: any
+  share_plus: ^7.0.0
+  screenshot: ^3.0.0
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
